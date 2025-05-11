@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import FeatureSection from "./components/FeatureSection/FeatureSection";
 import OurTeam from "./components/OurTeam/OurTeam";
+import ProjectSection from "./components/ProjectSection/ProjectSection";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         <FeatureSection />
         <div className="w-full">
           <OurTeam />
+        </div>
+        <div className="w-full project-section-container">
+          <ProjectSection />
         </div>
       </div>
     </>

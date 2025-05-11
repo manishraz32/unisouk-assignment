@@ -1,4 +1,11 @@
 /* Base styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body,
 html {
   margin: 0;
@@ -193,4 +200,8 @@ button.secondary {
 
 .w-full {
   width: 100%;
+}
+
+.project-section-container {
+  background-color: hsl(206, 21%, 94%);
 }
