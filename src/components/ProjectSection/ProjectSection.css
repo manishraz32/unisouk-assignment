@@ -30,7 +30,7 @@
 .project-card-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 40px;
 }
 
 .top-cards-container {
@@ -50,13 +50,18 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
+
 .project-text-container {
   position: relative;
   background-color: #aa80ff;
@@ -92,4 +97,75 @@
   color: inherit;
   font-size: 20px;
   color: #f7f9fc;
+}
+
+.project-text-header-2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.project-image-container-2 {
+  width: 100%;
+  height: 225px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.project-text-container2 {
+  position: relative;
+  padding: 20px 20px;
+  background-color: white;
+}
+
+.chip-container2 {
+  position: absolute;
+  padding: 2px 16px;
+  background-color: #ccb3ff;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 20px;
+  top: -11px;
+}
+
+.project-card-desc {
+  font-size: 16px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.border-16px {
+  border-top: 16px;
+}
+.borderRadiusBottom-16px {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.footer-container {
+  margin-top: 130px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  color: #4b5563;
+}
+
+.link-container {
+  display: flex;
+  gap: 40px;
+}
+
+.anchor-text {
+}
+
+.icon-container2 {
+  display: flex;
+  gap: 30px;
 }
